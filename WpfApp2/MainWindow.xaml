@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Straal (in cm)" HorizontalAlignment="Left" Margin="348,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Omtrek (in cm )" HorizontalAlignment="Left" Margin="334,199,0,0" VerticalAlignment="Top"/>
+        <Label Content="Oppervlakte (in cm)" HorizontalAlignment="Left" Margin="313,230,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="straalTextbox" HorizontalAlignment="Left" Margin="460,172,0,0" TextWrapping="Wrap" Text="straal" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name ="omtrekTextbox" HorizontalAlignment="Left" Margin="460,203,0,0" TextWrapping="Wrap" Text="Omtrek" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name ="oppervlakteTextbox"  HorizontalAlignment="Left" Margin="460,234,0,0" TextWrapping="Wrap" Text="Oppervlakte" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name ="calculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="571,184,0,0" VerticalAlignment="Top" Click="calculateButton_Click"/>
+        <Button x:Name ="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="571,219,0,0" VerticalAlignment="Top" Click="clearButton_Click"/>
+
+    </Grid>
+</Window>
